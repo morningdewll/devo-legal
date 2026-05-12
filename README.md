@@ -1,20 +1,20 @@
-# quiettime-legal
+# devo-legal
 
-Static legal site for the QuietTime mobile app. Hosted on GitHub Pages.
+Static legal site for the devo mobile app. Hosted on GitHub Pages.
 
 ## Files
 
 - `index.html` — landing
-- `privacy.html` — Privacy Policy (Last updated: May 10, 2026)
-- `terms.html` — Terms of Service (Effective: May 10, 2026)
+- `privacy.html` — Privacy Policy (Last updated: May 12, 2026)
+- `terms.html` — Terms of Service (Effective: May 10, 2026, last updated May 12, 2026)
 - `style.css` — shared styling
 
 ## Deploy (one-time, ~2 minutes)
 
-1. Create a new public repo on GitHub. Suggested name: `quiettime-legal`.
+1. Create a new public repo on GitHub. Suggested name: `devo-legal`.
    - Go to https://github.com/new
    - Owner: `morningdewll`
-   - Repository name: `quiettime-legal`
+   - Repository name: `devo-legal`
    - Visibility: **Public** (required for free GitHub Pages)
    - Do NOT initialize with README, .gitignore, or license — this folder already has the README.
 
@@ -24,7 +24,7 @@ Static legal site for the QuietTime mobile app. Hosted on GitHub Pages.
    git add .
    git commit -m "init: privacy policy + terms of service"
    git branch -M main
-   git remote add origin https://github.com/morningdewll/quiettime-legal.git
+   git remote add origin https://github.com/morningdewll/devo-legal.git
    git push -u origin main
    ```
 
@@ -36,9 +36,9 @@ Static legal site for the QuietTime mobile app. Hosted on GitHub Pages.
    - Wait ~30s for first deploy.
 
 4. Live URLs (replace `morningdewll` with the actual GitHub username if different):
-   - Landing: `https://morningdewll.github.io/quiettime-legal/`
-   - Privacy: `https://morningdewll.github.io/quiettime-legal/privacy.html`
-   - Terms: `https://morningdewll.github.io/quiettime-legal/terms.html`
+   - Landing: `https://morningdewll.github.io/devo-legal/`
+   - Privacy: `https://morningdewll.github.io/devo-legal/privacy.html`
+   - Terms: `https://morningdewll.github.io/devo-legal/terms.html`
 
 5. Use these URLs in:
    - Play Console → Store presence → Main store listing → Privacy Policy
@@ -55,7 +55,7 @@ GitHub Pages re-deploys within a minute. Keep `Last updated` dates in sync betwe
 
 ## Source of truth
 
-The canonical Markdown drafts live in the QuietTime app repo:
+The canonical Markdown drafts live in the devo app repo:
 - `docs/store/privacy-policy.md`
 - `docs/legal/terms-of-service.md`
 
